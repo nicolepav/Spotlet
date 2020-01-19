@@ -40,5 +40,7 @@ class AltMap : AppCompatActivity(), OnMapReadyCallback {
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
     }
 
+    //wtf
+
 
 }
