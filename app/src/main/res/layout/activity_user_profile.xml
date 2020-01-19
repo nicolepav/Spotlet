@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
     tools:context=".UserProfile">
 
     <ImageView
@@ -57,11 +59,16 @@
         android:id="@+id/imageButton"
         android:layout_width="32dp"
         android:layout_height="32dp"
+        android:layout_marginStart="351dp"
+        android:layout_marginTop="35dp"
         android:layout_marginEnd="28dp"
+        android:layout_marginBottom="664dp"
         android:background="#00FFFFFF"
         android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/settings_peach"
-        tools:layout_editor_absoluteY="35dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/settings_peach" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

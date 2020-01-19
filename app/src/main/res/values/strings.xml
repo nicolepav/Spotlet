@@ -25,8 +25,8 @@
     <string name="button_login">Login</string>
     <string name="textView_confirmpassword">Confirm Password:</string>
     <string name="button_register">Register</string>
-    <string name="text_profilename">Jane</string>
-    <string name="text_profilelastname">Doe</string>
+    <string name="text_profilename">Ada</string>
+    <string name="text_profilelastname">Lovelace</string>
     <string name="title_activity_maps">Available Lots Near You</string>
 
     <string name="google_maps_key">AIzaSyCWrHKIMTbAE12TPSUqyFXy558F0kmMnyY</string>
