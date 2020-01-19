@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">Spotlet</string>
 
-    <string name="address">Address</string>
+    <string name="address">1234 Sample Road, City Name, ST, 00000</string>
     <string name="hourly_rate">Hourly Rate</string>
     <string name="park">Parking Space</string>
     <string name="rating">Rating</string>
+    <string name="next">Next</string>
 
     <string name="title">List a spot</string>
 
@@ -14,7 +15,7 @@
     <string name="state">Enter State</string>
     <string name="zip_code">Enter ZIP Code</string>
 
-    <string name="vehicle_size">Enter largest vehicle size</string>
+    <string name="vehicle_size">Size vehicles allowed</string>
 
     <string name="submit">Submit</string>
 
@@ -29,4 +30,8 @@
     <string name="title_activity_maps">Available Lots Near You</string>
 
     <string name="google_maps_key">AIzaSyCWrHKIMTbAE12TPSUqyFXy558F0kmMnyY</string>
+
+    <string name="checkbox_compact">Fits Compact</string>
+    <string name="checkbox_midsize">Fits Midsize</string>
+    <string name="checkbox_large">Fits Large</string>
 </resources>

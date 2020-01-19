@@ -35,7 +35,7 @@ class Login : AppCompatActivity() {
 
         btnlogin!!.setOnClickListener {
             login()
-            val intent = Intent(this, MapsActivity::class.java)
+            val intent = Intent(this, AltMap::class.java)
             startActivity(intent)
 
         }
