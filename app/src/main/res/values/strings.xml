@@ -3,6 +3,7 @@
     <string name="address">Address</string>
     <string name="hourly_rate">Hourly Rate</string>
     <string name="park">Parking Space</string>
+    <string name="rating">Rating</string>
 
     <string name="title">List a spot</string>
 
@@ -11,4 +12,6 @@
     <string name="city">Enter City</string>
     <string name="state">Enter State</string>
     <string name="zip_code">Enter ZIP Code</string>
+
+    <string name="submit">Submit</string>
 </resources>
