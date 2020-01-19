@@ -41,8 +41,8 @@ class Register : AppCompatActivity() {
         btnregister!!.setOnClickListener {
             createNewAccount()
             // redirect to home page
-            // val intent = Intent(this, Register::class.java)
-            // startActivity(intent)
+             val intent = Intent(this, AltMap::class.java)
+             startActivity(intent)
         }
 
     }
