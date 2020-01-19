@@ -6,58 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="475dp"
-        android:visibility="visible"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:context=".MainActivity">
-
-        <Button
-            android:id="@+id/button_mainlogin"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="30dp"
-            android:layout_marginBottom="15dp"
-            android:backgroundTint="@color/colorAccent"
-            android:text="@string/button_login"
-            android:textColor="#FFFFFF"
-            app:layout_constraintBottom_toTopOf="@+id/button_mainregister"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/button_mainregister"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginEnd="30dp"
-            android:layout_marginBottom="135dp"
-            android:backgroundTint="@color/colorAccent"
-            android:text="@string/button_register"
-            android:textColor="#FFFFFF"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button_mainlogin" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <ImageView
-        android:id="@+id/imageView"
+    <Button
+        android:id="@+id/button_mainregister"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="315dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/button_register"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/spotlet_caps_transparent" />
+        app:layout_constraintTop_toBottomOf="@+id/button_mainlogin" />
+
+    <Button
+        android:id="@+id/button_mainlogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="293dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="27dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/button_login"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/button_mainregister"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

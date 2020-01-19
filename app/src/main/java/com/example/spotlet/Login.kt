@@ -1,5 +1,6 @@
 package com.example.spotlet
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -34,6 +35,9 @@ class Login : AppCompatActivity() {
 
         btnlogin!!.setOnClickListener {
             login()
+            val intent = Intent(this, MapsActivity::class.java)
+            startActivity(intent)
+
         }
     }
 
