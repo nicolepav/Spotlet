@@ -10,15 +10,16 @@
         android:id="@+id/button_mainregister"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="161dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="27dp"
-        android:layout_marginEnd="162dp"
-        android:layout_marginBottom="315dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="200dp"
         android:backgroundTint="@color/colorAccent"
         android:text="@string/button_register"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_mainlogin" />
 
@@ -26,9 +27,9 @@
         android:id="@+id/button_mainlogin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="161dp"
-        android:layout_marginTop="293dp"
-        android:layout_marginEnd="162dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="30dp"
         android:layout_marginBottom="27dp"
         android:backgroundTint="@color/colorAccent"
         android:text="@string/button_login"
@@ -37,5 +38,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginBottom="84dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_mainlogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/spotlet_caps_transparent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
