@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "152891125382",
+    "firebase_url": "https://spotlet-f4a21.firebaseio.com",
+    "project_id": "spotlet-f4a21",
+    "storage_bucket": "spotlet-f4a21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152891125382:android:66eedf03f10d1a27776b07",
+        "android_client_info": {
+          "package_name": "com.example.spotlet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152891125382-2tocjcg30il33dj6m51dfp12903q0euk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOTKEe1fHaSSgbriZgMZDHakbdAcYS1WI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152891125382-2tocjcg30il33dj6m51dfp12903q0euk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
