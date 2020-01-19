@@ -8,6 +8,8 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
+//import com.google.firebase.
+//import com.google.firebase.firestore.FirebaseFirestore
 
 class Login : AppCompatActivity() {
 
@@ -42,6 +44,8 @@ class Login : AppCompatActivity() {
     }
 
     private fun login() {
+//        val db = FirebaseFirestore.getInstance()
+
         email = etEmail?.text.toString()
         password = etPassword?.text.toString()
 
