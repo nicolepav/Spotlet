@@ -1,34 +1,42 @@
 {
   "project_info": {
-    "project_number": "152891125382",
-    "firebase_url": "https://spotlet-f4a21.firebaseio.com",
-    "project_id": "spotlet-f4a21",
-    "storage_bucket": "spotlet-f4a21.appspot.com"
+    "project_number": "682576323711",
+    "firebase_url": "https://spotlet-rose.firebaseio.com",
+    "project_id": "spotlet-rose",
+    "storage_bucket": "spotlet-rose.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:152891125382:android:66eedf03f10d1a27776b07",
+        "mobilesdk_app_id": "1:682576323711:android:d6d33e7f63ad2af2020b4a",
         "android_client_info": {
           "package_name": "com.example.spotlet"
         }
       },
       "oauth_client": [
         {
-          "client_id": "152891125382-2tocjcg30il33dj6m51dfp12903q0euk.apps.googleusercontent.com",
+          "client_id": "682576323711-d203pmjm1pk5dq64l2q6sb0tnjdrh0rk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.spotlet",
+            "certificate_hash": "1f79beeff3ca9dd72f5a816a6b5279c91deb224f"
+          }
+        },
+        {
+          "client_id": "682576323711-preti6hjoq8pjl4u9nra00c0g38cqf7a.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCOTKEe1fHaSSgbriZgMZDHakbdAcYS1WI"
+          "current_key": "AIzaSyCR5NE4OrjTkL17y-fC4wt9PWEth8AAOWM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "152891125382-2tocjcg30il33dj6m51dfp12903q0euk.apps.googleusercontent.com",
+              "client_id": "682576323711-preti6hjoq8pjl4u9nra00c0g38cqf7a.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
