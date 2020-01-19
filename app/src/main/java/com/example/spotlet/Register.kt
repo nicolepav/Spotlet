@@ -1,5 +1,6 @@
 package com.example.spotlet
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -37,16 +38,16 @@ class Register : AppCompatActivity() {
 
         mAuth = FirebaseAuth.getInstance()
 
-        btnCreateAccount!!.setOnClickListener { createNewAccount() }
+        btnCreateAccount!!.setOnClickListener {
+            createNewAccount()
+            // redirect to home page
+            // val intent = Intent(this, Register::class.java)
+            // startActivity(intent)
+
+        }
 
 
-//        this.mAuth.createUserWithEmailAndPassword(newuseremail, newuserpassword).addOnCompleteListener { task: Task<AuthResult> ->
-//            if (task.isSuccessful) {
-//                val firebaseUser = this.mAuth.currentUser!!
-//            } else {
-//                Toast.makeText(this,"Account creation failed", Toast.LENGTH_SHORT)
-//            }
-//        }
+
 
     }
 
