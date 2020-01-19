@@ -42,6 +42,8 @@ class AltMap : AppCompatActivity(), OnMapReadyCallback {
         val sydney = LatLng(-34.0, 151.0)
         mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
+        mMap.cameraPosition.zoom
+        mMap.cameraPosition.zoom
         mMap = googleMap
         // Add a marker in ucr and move the camera
         val ucr = LatLng(34.0, -117.0)

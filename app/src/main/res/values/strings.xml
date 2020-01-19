@@ -34,4 +34,6 @@
     <string name="checkbox_compact">Fits Compact</string>
     <string name="checkbox_midsize">Fits Midsize</string>
     <string name="checkbox_large">Fits Large</string>
+
+    <string name="parkhere">Park Here</string>
 </resources>
