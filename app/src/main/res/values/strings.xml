@@ -5,4 +5,9 @@
     <string name="button_login">Login</string>
     <string name="textView_confirmpassword">Confirm Password:</string>
     <string name="button_register">Register</string>
+    <string name="text_profilename">Jane</string>
+    <string name="text_profilelastname">Doe</string>
+
+
+
 </resources>
