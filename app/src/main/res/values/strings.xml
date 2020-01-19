@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Spotlet</string>
+    <string name="title_activity_maps">Available Lots Near You</string>
 </resources>
