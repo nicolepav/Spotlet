@@ -28,4 +28,5 @@
     <string name="text_profilelastname">Doe</string>
     <string name="title_activity_maps">Available Lots Near You</string>
 
+    <string name="google_maps_key">AIzaSyCWrHKIMTbAE12TPSUqyFXy558F0kmMnyY</string>
 </resources>

@@ -20,14 +20,11 @@
         <activity android:name=".UserListingPriceSize"></activity>
         <activity android:name=".UserListing" />
         <activity android:name=".Listing" />
-
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
+        
 
 
         <activity android:name=".UserProfile"></activity>
-        <activity android:name=".MainActivity" >
+        <activity android:name=".MainActivity" />
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
