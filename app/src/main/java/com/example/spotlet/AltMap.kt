@@ -34,13 +34,35 @@ class AltMap : AppCompatActivity(), OnMapReadyCallback {
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
 
+        // zoom buttons
+        mMap.getUiSettings().setZoomControlsEnabled(true)
+        mMap.getUiSettings().setCompassEnabled(true)
+
         // Add a marker in Sydney and move the camera
         val sydney = LatLng(-34.0, 151.0)
         mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
+        mMap = googleMap
+        // Add a marker in ucr and move the camera
+        val ucr = LatLng(34.0, -117.0)
+        mMap.addMarker(MarkerOptions().position(ucr).title("Marker in UCR"))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(ucr))
+        // Add sample parking spots
+        val ucrSpot = LatLng(34.001, -117.0001)
+        mMap.addMarker(MarkerOptions().position(ucrSpot).title("Available Spot"))
+        val ucrSpot1 = LatLng(34.005, -117.01)
+        mMap.addMarker(MarkerOptions().position(ucrSpot1).title("Available Spot"))
+        val ucrSpot2 = LatLng(34.002, -117.001)
+        mMap.addMarker(MarkerOptions().position(ucrSpot2).title("Available Spot"))
+        val ucrSpot3 = LatLng(34.011, -117.11)
+        mMap.addMarker(MarkerOptions().position(ucrSpot3).title("Available Spot"))
+        val ucrSpot4 = LatLng(34.021, -117.0201)
+        mMap.addMarker(MarkerOptions().position(ucrSpot4).title("Available Spot"))
     }
 
     //wtf
 
 
 }
+
+

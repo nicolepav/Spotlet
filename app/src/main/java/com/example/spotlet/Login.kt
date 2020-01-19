@@ -9,9 +9,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.firestore.FirebaseFirestore
 
-val db = FirebaseFirestore.getInstance()
 
 class Login : AppCompatActivity() {
 
@@ -35,33 +33,11 @@ class Login : AppCompatActivity() {
         btnlogin = findViewById<View>(R.id.button_login) as Button
         mAuth = FirebaseAuth.getInstance()
 
-        val entry = hashMapOf(
-            "lat" to 3,
-            "lng" to 5,
-            "rate_hour" to 3
-        )
 
-
-        db.collection("listings").add(entry)
-            .addOnSuccessListener { Log.d("sdf", "DocumentSnapshot successfully written!") }
-            .addOnFailureListener { e -> Log.w("SDfsd", "Error writing document", e) }
-        db.collection("listings").document("As66X6KeMd7QyatQHpwv").get().addOnSuccessListener {
-            document ->
-                if (document != null) {
-                    Log.d("ifnotnukk", "DocumentSnapshot data: ${document.data}")
-                } else {
-                    Log.d("else", "No such document")
-                }
-            }.addOnFailureListener { exception ->
-                Log.d("failurelistener", "get failed with ", exception)
-            }
-
-
-            btnlogin!!.setOnClickListener {
+        btnlogin!!.setOnClickListener {
             login()
             val intent = Intent(this, AltMap::class.java)
             startActivity(intent)
-
         }
     }
 
