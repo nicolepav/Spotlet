@@ -21,6 +21,9 @@
         <activity android:name=".UserListing" />
         <activity android:name=".Listing" />
 
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
 
 
         <activity android:name=".UserProfile"></activity>
@@ -51,7 +54,7 @@
         <activity android:name=".Register" />
         <activity android:name=".Login" />
 
-
+        
     </application>
 
 </manifest>
