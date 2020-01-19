@@ -13,5 +13,7 @@
     <string name="state">Enter State</string>
     <string name="zip_code">Enter ZIP Code</string>
 
+    <string name="vehicle_size">Enter largest vehicle size</string>
+
     <string name="submit">Submit</string>
 </resources>

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UserListing"></activity>
+        <activity android:name=".UserListingPriceSize"></activity>
+        <activity android:name=".UserListing" />
         <activity android:name=".Listing" />
     </application>
 
