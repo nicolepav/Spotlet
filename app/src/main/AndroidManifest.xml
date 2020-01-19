@@ -17,6 +17,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <activity android:name=".UserListingPriceSize"></activity>
+        <activity android:name=".UserListing" />
+        <activity android:name=".Listing" />
+
+
 
         <activity android:name=".UserProfile"></activity>
         <activity android:name=".MainActivity" >
@@ -45,6 +50,7 @@
 
         <activity android:name=".Register" />
         <activity android:name=".Login" />
+
 
     </application>
 

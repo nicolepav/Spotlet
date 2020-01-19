@@ -1,6 +1,24 @@
 <resources>
     <string name="app_name">Spotlet</string>
 
+    <string name="address">Address</string>
+    <string name="hourly_rate">Hourly Rate</string>
+    <string name="park">Parking Space</string>
+    <string name="rating">Rating</string>
+
+    <string name="title">List a spot</string>
+
+    <string name="upload">Upload Photo Here</string>
+    <string name="street">Enter Street Name</string>
+    <string name="city">Enter City</string>
+    <string name="state">Enter State</string>
+    <string name="zip_code">Enter ZIP Code</string>
+
+    <string name="vehicle_size">Enter largest vehicle size</string>
+
+    <string name="submit">Submit</string>
+
+
     <string name="text_emailfield">Email Address:</string>
     <string name="text_passwordfield">Password:</string>
     <string name="button_login">Login</string>
@@ -9,4 +27,5 @@
     <string name="text_profilename">Jane</string>
     <string name="text_profilelastname">Doe</string>
     <string name="title_activity_maps">Available Lots Near You</string>
+
 </resources>
