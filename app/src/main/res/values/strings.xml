@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Spotlet</string>
+    <string name="address">Address</string>
+    <string name="hourly_rate">Hourly Rate</string>
+    <string name="park">Parking Space</string>
+
+    <string name="title">List a spot</string>
+
+    <string name="upload">Upload Photo Here</string>
+    <string name="street">Enter Street Name</string>
+    <string name="city">Enter City</string>
+    <string name="state">Enter State</string>
+    <string name="zip_code">Enter ZIP Code</string>
 </resources>
